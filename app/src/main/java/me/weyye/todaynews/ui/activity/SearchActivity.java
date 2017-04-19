@@ -14,6 +14,7 @@ public class SearchActivity extends BaseActivity {
     @Override
     protected void loadViewLayout() {
         setContentView(R.layout.activity_search);
+          
     }
 
     @Override
