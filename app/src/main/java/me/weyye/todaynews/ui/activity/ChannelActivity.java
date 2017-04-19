@@ -67,12 +67,12 @@ public class ChannelActivity extends BaseActivity implements OnChannelDragListen
      * 生成频道数据
      */
     private void generateDatas() {
-        mDatas.add(new Channel(Channel.TYPE_MY, "我的频道"));
+        mDatas.add(new Channel(Channel.TYPE_MY, "我的书本分类"));
         for (int i = 0; i < titles.length; i++) {
             String title = titles[i];
             mDatas.add(new Channel(Channel.TYPE_MY_CHANNEL, title));
         }
-        mDatas.add(new Channel(Channel.TYPE_OTHER, "频道推荐"));
+        mDatas.add(new Channel(Channel.TYPE_OTHER, "分类推荐"));
         for (int i = 0; i < titles.length; i++) {
             String title = titles[i];
             mDatas.add(new Channel(Channel.TYPE_OTHER_CHANNEL, title + "推荐"));

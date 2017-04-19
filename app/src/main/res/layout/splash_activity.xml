@@ -22,8 +22,8 @@
         android:id="@+id/splash_view"
         android:layout_width="fill_parent"
         android:layout_height="fill_parent"
-        android:layout_above="@+id/banner_view"
         android:scaleType="fitXY"
+        android:layout_above="@+id/banner_view"
         android:visibility="invisible"/>
 
     <FrameLayout
@@ -80,7 +80,7 @@
         android:layout_alignParentRight="true"
         android:layout_alignParentTop="true"
         android:layout_marginRight="10.0dip"
-        android:layout_marginTop="8.0dip"
+        android:layout_marginTop="20dip"
         android:visibility="gone">
 
         <TextView

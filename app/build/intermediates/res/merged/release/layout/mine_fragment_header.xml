@@ -46,7 +46,7 @@
                     android:ellipsize="end"
                     android:gravity="center"
                     android:maxLines="1"
-                    android:text="Wey Ye"
+                    android:text="鹏哥"
                     android:textColor="@color/ssxinzi10"
                     android:textSize="16.0sp"/>
 

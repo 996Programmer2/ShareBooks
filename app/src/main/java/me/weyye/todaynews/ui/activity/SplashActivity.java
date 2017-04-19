@@ -1,5 +1,6 @@
 package me.weyye.todaynews.ui.activity;
 
+import android.graphics.Color;
 import android.os.Bundle;
 import android.text.TextUtils;
 import android.view.View;
@@ -20,15 +21,13 @@ import rx.Subscriber;
 import rx.Subscription;
 import rx.functions.Action0;
 
-import static me.weyye.todaynews.R.id.banner_view;
-
 /**
  * Created by Administrator on 2017/2/22 0022.
  */
 
 public class SplashActivity extends BaseActivity {
     final int COUT_DOWN_TIME = 5;
-    @BindView(banner_view)
+    @BindView(R.id.banner_view)
     ImageView mBannerView;
     @BindView(R.id.splash_view)
     ImageView mSplashView;
@@ -53,6 +52,8 @@ public class SplashActivity extends BaseActivity {
     @Override
     protected void loadViewLayout() {
         setContentView(R.layout.splash_activity);
+        getWindow().setStatusBarColor(Color.TRANSPARENT);
+        getWindow().getDecorView().setSystemUiVisibility(View.SYSTEM_UI_FLAG_LAYOUT_STABLE | View.SYSTEM_UI_FLAG_LAYOUT_FULLSCREEN);
         ButterKnife.bind(this);
     }
 
@@ -67,7 +68,7 @@ public class SplashActivity extends BaseActivity {
                 .doOnSubscribe(new Action0() {
                     @Override
                     public void call() {
-                        ImageLoaderUtils.displayBigImage("http://www.3vsheji.com/uploads/allimg/151222/1F92594D_0.jpg", mSplashView);
+                        ImageLoaderUtils.displayBigImage("http://d.5857.com/qinxinmn_140730/002.jpg", mSplashView);
                         mAdClickSmall.setVisibility(View.VISIBLE);
                         mSplashView.setVisibility(View.VISIBLE);
                         mAdIgnore.setVisibility(View.VISIBLE);

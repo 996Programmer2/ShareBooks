@@ -1,6 +1,6 @@
 [
     {
-        "outputFile": "E:\\workspace\\AndroidStudioProject\\TodayNews\\app\\build\\intermediates\\res\\merged\\release\\values-en\\values-en.xml",
+        "outputFile": "E:\\workspace\\AndroidStudioProject\\ShareBooks\\app\\build\\intermediates\\res\\merged\\release\\values-en\\values-en.xml",
         "map": [
             {
                 "to": {
@@ -11,7 +11,7 @@
                     "endOffset": 97
                 },
                 "from": {
-                    "file": "E:\\workspace\\AndroidStudioProject\\TodayNews\\app\\build\\intermediates\\exploded-aar\\com.github.CymChad\\BaseRecyclerViewAdapterHelper\\v1.8.5\\res\\values-en\\values-en.xml",
+                    "file": "E:\\workspace\\AndroidStudioProject\\ShareBooks\\app\\build\\intermediates\\exploded-aar\\com.github.CymChad\\BaseRecyclerViewAdapterHelper\\v1.8.5\\res\\values-en\\values-en.xml",
                     "position": {
                         "startLine": 2,
                         "startColumn": 4,
